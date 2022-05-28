@@ -5,32 +5,32 @@ export const Container = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
-  background: #282c34;
+  background: #000000;
   overflow: hidden;
 
-  .image{
-    img{
+  .image {
+    img {
       height: 100vh;
     }
   }
 
-  .wrapper{
+  .wrapper {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    .logo{
-      height: 30%;
+
+    .logo {
+      height: 25%;
     }
-    
-    .name{
+
+    .name {
       margin-top: 50px;
       height: 10%;
     }
-    
- 
+
+
   }
 
 `
